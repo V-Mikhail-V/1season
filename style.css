@@ -1,0 +1,89 @@
+header {
+	margin-top: 5px;
+	font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+	
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+	
+
+}	
+.dws-menu ul{
+	display: flex;
+	justify-content: center;
+
+}
+.dws-menu > ul li a{
+	display: block;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+	background: rgb(226,226,226); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	color: #454547;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	
+}
+.dws-menu > ul li{
+	position:relative;
+	border-right: 1px solid #c7c8ca;
+	
+}
+.dws-menu > ul li > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;	
+}
+.dws-menu > ul li:first-child{
+	border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+	border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+	background: #454547;
+	color: #fff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+.footer {
+	width: calc(100% - 20px);
+	height: 500px;
+	margin-top: 20px;
+	border-top: 2px solid silver;
+	padding: 10px;
+	font-size: 1.2em;
+	font-family: Arial;
+}
+
+h3 {
+	font-family: Arial;
+
+}
+
+h1 {
+	font-family: Algerian;
+}
+
+
+
+#radioheart-player{
+	width: calc(100% - 20px);
+	height: 1px;
+	margin-top: 2px;
+	padding: 10px;
+	font-size: 1.2em;
+	font-family: Arial;
+}
